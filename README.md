@@ -28,9 +28,9 @@ Permission:: Entity A can do something with entity B.
 
 It is possible to build up hierarchies to arbitray levels. For example
 
-. People can be members of sections that are members of departments that
+- People can be members of sections that are members of departments that
   are members of operating companies who are members of holding companies
-. sub-components can be members of products which can be members of
+- sub-components can be members of products which can be members of
   product goups
 
 ## Permissions ##
@@ -50,10 +50,10 @@ practical.
 ### The code ###
 
 The class is presented as 
-. an ACL_interface which lists the public methods, 
-. an abstract class which implements the interface and all but the 
+- an ACL_interface which lists the public methods, 
+- an abstract class which implements the interface and all but the 
   database specific methods and finally
-. an sqlite class which extends the abstract ACL class to use an 
+- an sqlite class which extends the abstract ACL class to use an 
   SQLite table to stare the actual values
 
 The database access methods are declared as abstract methods in the
