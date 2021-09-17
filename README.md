@@ -12,8 +12,8 @@ NOTE This class has been developed and tested with PHP 7.2
 
 Entities can be anything that 
 
-. needs access to controlled items or 
-. is a controlled item
+- needs access to controlled items or 
+- is a controlled item
 
 Entities can store an arbitrary amount of information, fields being
 created and dropped as required. The only essential part of an entity
